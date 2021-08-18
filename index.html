@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>App</title>
+</head>
+
+<body>
+   <div class="container">
+      <header class="title">Tags app </header>
+      <section class="main">
+         <input type="text" placeholder="Enter a text">
+         <div class="btns">
+            <button class="btn" onclick=addTag()>add a tag</button>
+         </div>
+         <div class="checkbox">
+            <input type="checkbox" id="conditions" value="1" onclick="termsChanged(this)" />
+            Disable tags adding
+         </div>
+      </section>
+      <ul id="tagsList"></ul>
+   </div>
+</body>
+<script src="script.js"></script>
+</body>
+
+</html>
